@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <script type="module" src="assets/js/scripts.js" defer></script>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <div class="container">
+    <header class="balance-header">
+      <main class="balance-container">
+        <span class="balance-title">My balance</span>
+        <h3 class="balance">$921.48</h3>
+      </main> <!-- balance-container -->
+      <div class="header-figure">
+        <div class="empty-circle circle"></div>
+        <div class="full-circle circle"></div>
+      </div> <!-- header-figure -->
+    </header> <!-- balance-header -->
+    <main class="content-container">
+      <h2 class="chart-title">Spending - Last 7 days</h2>
+      <section class="chart-container">
+        <article id='mon' class="bar-day-container">
+          <div class="amount">
+            <p>$17.45</p>
+          </div>
+          <div class="bar mon"></div>
+          <span class="day">mon</span>
+        </article> <!-- bar-day-container -->
+        <article id='tue' class="bar-day-container">
+          <div class="amount">
+            <p>$34.91</p>
+          </div>
+          <div class="bar tue"></div>
+          <span class="day">tue</span>
+        </article> <!-- bar-day-container -->
+        <article id='wed' class="bar-day-container">
+          <div class="amount">
+            <p>$52.36</p>
+          </div>
+          <div class="bar wed"></div>
+          <span class="day">wed</span>
+        </article> <!-- bar-day-container -->
+        <article id='thu' class="bar-day-container">
+          <div class="amount">
+            <p>$31.07</p>
+          </div>
+          <div class="bar thu"></div>
+          <span class="day">thu</span>
+        </article> <!-- bar-day-container -->
+        <article id='fri' class="bar-day-container">
+          <div class="amount">
+            <p>$23.39</p>
+          </div>
+          <div class="bar fri"></div>
+          <span class="day">fri</span>
+        </article> <!-- bar-day-container -->
+        <article id='sat' class="bar-day-container">
+          <div class="amount">
+            <p>$43.28</p>
+          </div>
+          <div class="bar sat"></div>
+          <span class="day">sat</span>
+        </article> <!-- bar-day-container -->
+        <article id='sun' class="bar-day-container">
+          <div class="amount">
+            <p>$25.48</p>
+          </div>
+          <div class="bar sun"></div>
+          <span class="day">sun</span>
+        </article> <!-- bar-day-container -->
+      </section> <!-- chart-container -->
+      <footer class="footer-container">
+        <main class="spent-container">
+          <span class="footer-title">
+            Total this month
+          </span>
+          <h1 class="total-spent">$227.94</h1>
+        </main>
+        <aside class="diference-container">
+          <strong class="diference-percent">+2.4%</strong>
+          <span class="period">from last month</span>
+        </aside>
+      </footer> <!-- footer-container -->
+    </main> <!-- content-container -->
+  </div> <!-- container -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tarik Chuery</a>.
+  </div>
+</body>
+</html>

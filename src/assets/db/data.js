@@ -1,4 +1,4 @@
-[
+export const data = [
   {
     "day": "mon",
     "amount": 17.45
