@@ -139,13 +139,7 @@ span.balance-title {
   justify-content: flex-end;
 }
 
-
-div.highest {
-  background-color: var(--cyan);
-}
-
 .bar {
-  background-color: var(--soft-red);
   width: 100%;
   border-radius: 5px;
   margin-bottom: 10px;
