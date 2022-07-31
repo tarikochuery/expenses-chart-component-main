@@ -1,7 +1,7 @@
 export const data = [
   {
     "day": "mon",
-    "amount": 17.45
+    "amount": 25.34
   },
   {
     "day": "tue",
@@ -9,7 +9,7 @@ export const data = [
   },
   {
     "day": "wed",
-    "amount": 52.36
+    "amount": 19.49
   },
   {
     "day": "thu",
