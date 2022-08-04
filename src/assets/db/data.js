@@ -1,30 +1,30 @@
 export const data = [
   {
     "day": "mon",
-    "amount": 25.34
+    "amount": 40.26
   },
   {
     "day": "tue",
-    "amount": 34.91
+    "amount": 15.79
   },
   {
     "day": "wed",
-    "amount": 19.49
+    "amount": 0
   },
   {
     "day": "thu",
-    "amount": 31.07
+    "amount": 86.32
   },
   {
     "day": "fri",
-    "amount": 23.39
+    "amount": 47.23
   },
   {
     "day": "sat",
-    "amount": 43.28
+    "amount": 96.12
   },
   {
     "day": "sun",
-    "amount": 25.48
+    "amount": 39.21
   }
 ]

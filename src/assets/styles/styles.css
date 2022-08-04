@@ -163,6 +163,7 @@ span.balance-title {
 
 .bar:hover {
   opacity: 0.75;
+  cursor: pointer;
 }
 
 .bar-day-container:hover .amount{
